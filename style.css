@@ -41,9 +41,15 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 8%;
     padding-right: 8%;
+    position: sticky;
+    top: 0%;
+    background-color: var(--beg-color);
+    border-bottom-style: solid;
+    border-width: .5px;
 }
 
 .nav ul li{
